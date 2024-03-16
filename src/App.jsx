@@ -1,11 +1,11 @@
-import React from "react";
-import { Login, Inventory } from "./pages/index";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import { AppRouter } from "./routes/AppRouter";
 
 export const App = () => {
   return (
-    <>
-      <Inventory />
-    </>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 };

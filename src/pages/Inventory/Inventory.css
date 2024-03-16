@@ -14,7 +14,7 @@ input::placeholder {
   text-align: center;
 }
 
-.btn {
+.btn-inventory {
   position: absolute;
   top: 4rem;
   right: 12rem;
