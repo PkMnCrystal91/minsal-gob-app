@@ -1,8 +1,30 @@
-# React + Vite
+# MINSAL Invetory App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features:
 
-Currently, two official plugins are available:
+- State: Redux-Toolkit.
+- CSS style: Bootstrap
+- Api call: axios
+- Server: json-server
+- Routes: react-router-dom@6
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Intall packages
+
+```
+yarn
+```
+
+### Runing app
+
+```
+yarn dev (for app)
+and
+yarn start:server (for json-server)
+```
+
+> [!IMPORTANT]
+> Key information users need to know to login due to routes are protected already.
+> email: eve.holt@reqres.in, password: cityslicka.
+
+> [!NOTE]
+> This App is still in development. You wont be able to see Inventory data from state rendered on table, however inventorySlice.js is 100% done just to make it happen.
