@@ -27,7 +27,7 @@ export const Login = () => {
       <div className="container login-container px-5 row justify-content-center">
         <div className="col-lg-5 d-flex align-items-center">
           <h1 className="text-white display-5">
-            <strong>This is an Application for my Fucking Goberment</strong>
+            <strong>This is an Inventory Application for MINSAL sector</strong>
           </h1>
         </div>
         <div className="col-md-0 col-lg-2"></div>
