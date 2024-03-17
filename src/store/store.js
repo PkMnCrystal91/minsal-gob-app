@@ -1,6 +1,7 @@
 import { combineReducers } from "redux";
 import storage from "redux-persist/lib/storage";
 import { authSlice } from "./auth/authSlice";
+import { inventorySlice } from "./intentory/inventorySlice";
 import { persistReducer } from "redux-persist";
 import { configureStore } from "@reduxjs/toolkit";
 import persistStore from "redux-persist/es/persistStore";
@@ -8,6 +9,7 @@ import persistStore from "redux-persist/es/persistStore";
 const reducers = combineReducers({
   //...
   auth: authSlice.reducer,
+  inventory: inventorySlice.reducer,
 });
 
 const persistConfig = {

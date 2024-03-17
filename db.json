@@ -1,0 +1,64 @@
+{
+  "product": [
+    {
+      "id": "2071",
+      "name": "Cigarros",
+      "price": "1.45",
+      "stock": "45"
+    },
+    {
+      "id": "73de",
+      "name": "Escobas",
+      "price": "1.50",
+      "stock": "344"
+    },
+    {
+      "id": "22ba",
+      "name": "Llantas",
+      "price": "45",
+      "stock": "234"
+    },
+    {
+      "id": "beb9",
+      "name": "Cafe Starbucks",
+      "price": "12",
+      "stock": "345"
+    },
+    {
+      "id": "771b",
+      "name": "Camisas de Messi",
+      "price": "34",
+      "stock": "456"
+    },
+    {
+      "id": "6b0b",
+      "name": "Onza Marihuana Premium",
+      "price": "55",
+      "stock": "100"
+    },
+    {
+      "id": "a511",
+      "name": "Pantalones Volcom",
+      "price": "35",
+      "stock": "456"
+    },
+    {
+      "id": "be1b",
+      "name": "Pizza",
+      "price": "5",
+      "stock": "566"
+    },
+    {
+      "id": "7ed7",
+      "name": "Manzanas",
+      "price": "0.25",
+      "stock": "1234"
+    },
+    {
+      "id": "ef20",
+      "name": "Item #1",
+      "price": "0.25",
+      "stock": "45565"
+    }
+  ]
+}
